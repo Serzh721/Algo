@@ -41,6 +41,7 @@ int main() {
                 s += nums[j];
             }
         }
+        
         if (abs(s - ideal) < max || max == -1) {
             max = abs(s - ideal);
         }
